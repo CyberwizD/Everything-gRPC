@@ -25,7 +25,7 @@ func main() {
 
 	// Client message
 	message := &chat.Chat {
-		Body: "Message from the client",
+		Body: "Hello Server",
 	}
 
 	// Return gRPC client reponse
