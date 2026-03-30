@@ -6,7 +6,7 @@ import (
 )
 
 type Server struct {
-
+	UnimplementedChatServiceServer
 }
 
 func (s *Server) Response(ctx context.Context, message *Chat) (*Chat, error) {
